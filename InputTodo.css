@@ -1,0 +1,146 @@
+
+
+/* Button Styles */
+.btn {
+    padding: 0;
+    border: none;
+    font-family: "Architects Daughter", cursive;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    color: #110014;
+    background-color: #2B1C2E;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Button Hover Styles */
+.btn:hover {
+    background-color: #2B1C2E;
+    color: #fff; /* Change text color on hover */
+}
+
+.btn span {
+    background: #2B1C2E;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid hsl(198, 1%, 29%);
+  }
+
+
+.form input {
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.7rem;
+    border-bottom-right-radius: 15px 3px;
+    border-bottom-left-radius: 3px 15px;
+    border: solid 3px transparent;
+    border-bottom: dashed 3px #92908d;
+    font-family: "Architects Daughter", cursive;
+    font-size: 1rem;
+    color: #0c000e;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+  /* Add this CSS to make the table background transparent */
+  .table {
+    width: 100%;
+    background-color: 0 6px 12px rgba(0, 0, 0, 0.4), 
+    0 3px 6px rgba(0, 0, 0, 0.3); /* Makes the background transparent */
+    border-collapse: collapse;    /* Optional: For cleaner table look */
+    color: white; /* Text color */
+    
+  }
+  
+  /* Table Borders and Text Styling */
+  .table th, .table td {
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0.7rem;
+    border-bottom-right-radius: 15px 3px;
+    border-bottom-left-radius: 3px 15px;
+    border: solid 3px transparent;
+    border: dashed 3px #92908d;
+    font-family: "Architects Daughter", cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0c000e;
+    width: 70%;
+    margin-bottom: 20px; /* Text color for better contrast */
+  }
+  
+  .table th {
+    background-color: #110014; /* Background color for headers */
+    color: white; /* Text color for headers */
+  }
+
+ .editBtn {
+  border: none;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  color: #110014;
+  background-color: #2B1C2E;
+  transition: background-color 0.3s ease, color 0.3s ease;
+ }
+
+ .editBtn:hover {
+  background-color: #2B1C2E;
+  color: #fff; /* Change text color on hover */
+}
+
+.delBtn {
+  border: none;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 5px;
+  color: #110014;
+  background-color: #2B1C2E;
+  transition: background-color 0.3s ease, color 0.3s ease;
+ }
+
+ .delBtn:hover {
+  background-color: #2B1C2E;
+  color: #fff; /* Change text color on hover */
+}
+
+.modal-title {
+  font-family: "Architects Daughter", cursive;
+  font-size: 1.5rem;
+  color: #0c000e;
+}
+
+.btn-secondary {
+  border: none;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 5px;
+  color: #110014;
+  background-color: #2B1C2E;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #2B1C2E;
+  color: #fff; /* Change text color on hover */
+}
+
+.btn-primary {
+  border: none;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 5px;
+  color: #110014;
+  background-color: #2B1C2E;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2B1C2E;
+  color: #fff; /* Change text color on hover */
+}
