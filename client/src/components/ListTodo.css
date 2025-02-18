@@ -1,0 +1,18 @@
+/* Add this CSS to make the table background transparent */
+.table {
+    background-color: transparent; /* Makes the background transparent */
+    border-collapse: collapse;    /* Optional: For cleaner table look */
+}
+
+/* Optional: Style table borders and text for better visibility */
+.table th, .table td {
+    border: 1px solid #ddd;  /* Border for better visibility */
+    padding: 8px;            /* Padding for better spacing */
+    text-align: left;        /* Align text to the left */
+    color: #fff;             /* Text color for better contrast */
+}
+
+.table th {
+    background-color: #333;  /* Background color for headers */
+    color: white;            /* Text color for headers */
+}
